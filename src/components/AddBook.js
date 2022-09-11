@@ -31,7 +31,7 @@ import {
   
     const sendRequest = async () => {
       await axios
-        .post("http://localhost:5000/books", {
+        .post("https://vikash-bookstore.herokuapp.com/books", {
           name: String(inputs.name),
           author: String(inputs.author),
           description: String(inputs.description),
